@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>运算符</title>
+</head>
+<body>
+<script>
+//    SyntaxError 语法错误
+//    console.log("hahaha")；
+
+//    ReferenceError 引用错误
+//    var hahaha = 1;
+//    console.log(hehaha);
+
+
+
+//      &&运算，前者为假，结果为假
+//      ||运算，前者为真，结果为真
+//    逻辑运算优先级 ! > && > ||
+//    不同类型数据做逻辑与运算，如a && b，a为正性，直接抛出b；a为负性，直接抛出a
+//    不同类型数据做逻辑或运算，如a || b，a为正性，直接抛出a；a为负性，直接抛出b
+
+
+//    赋值运算符
+var str = "haha";
+var str1 = "hi";
+str = str + str1;
+str += str1;
+str ++;
+str = str % 2;
+str %= 2;
+str = str - 1;
+str --;
+
+    var oTest = 2017;
+//    console.log(oTest++);// 2017  oTest = oTest + 1
+//    console.log(oTest); // 2018
+
+    console.log(++oTest);// 2018 oTest + 1 = oTest
+    console.log(oTest);// 2018
+
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>练习题</title>
+</head>
+<body>
+<script>
+//    今天星期二      0
+//    明天 三        1     1 % 7 = 1
+//    后天 四        2
+//    五             3
+//    六             4
+//    日             5    5 % 7 = 5  5 + 2 = 7
+//    一             6    6 % 7 = 6  6 + 2 = 8 8 % 7 = 1
+//    二             7
+//    三             8    8 % 7 = 1  1 + 2 = 3
+//    四             9    9 % 7 = 2  2 + 2 = 4
+//    1000天后是星期几，1000 % 7 + 2
+    var nInput = parseInt(prompt("请输入正整数天："));
+    console.log(nInput + "后是星期" + (nInput % 7 + 2) % 7);
+// ----------------------------------------------------------------------------------------
+
+// 234
+// 234 % 10 = 4
+// parseInt(234 / 10) % 10 = 3
+// parseInt(234 / 100) = 2
+
+    var nInputNum = parseInt(prompt("请输入一个三位数："));
+    var nGe = nInputNum % 10;
+    var nShi = parseInt(nInputNum / 10) % 10;
+    var nBai = parseInt(nInputNum / 100);
+    console.log("该三位数各数位之和是" + (nBai + nShi + nGe));
+</script>
+</body>
+</html>
