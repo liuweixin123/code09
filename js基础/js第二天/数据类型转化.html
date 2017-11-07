@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数据类型转化</title>
+</head>
+<body>
+<script>
+    //    字符串 -> 数字 parseInt()
+//    var suma = parseInt(prompt("请输入一个加数："));
+//    var sumb = parseInt(prompt("请输入另一个加数："));
+
+//    简单调试方法
+//    console.log(suma);
+//    console.log(typeof suma);
+//    console.log(sumb);
+//    console.log(typeof sumb);
+
+//    alert("两个加数的和是" + (suma+sumb));
+//    练习parseInt
+    console.log(parseInt("1 23")); // 1
+    console.log(isNaN(parseInt("你好123"))); // isNaN判断一个值是否是NaN  返回true或false
+    console.log(parseInt("3.14")); // 3 可以对小数取整
+    console.log(parseInt("17",8)); // 15 八进制中的17
+    console.log(parseInt("1f",16)); // 31
+
+    var floatStr = "3.1415926.23587";
+    console.log(parseFloat(floatStr)); // 3.1415926
+
+    var intStr = "12345678";
+    console.log(Number(intStr));// 强制 类型转换
+    console.log(Boolean(intStr));// 强制 类型转换
+
+
+
+//    数字 -> 字符串
+    var strNum = 12345;
+    console.log(strNum + ""); // "12345"
+    console.log(String(strNum)); // "12345"
+
+//    function PrintJishu(){
+//
+//    }
+
+
+
+
+</script>
+</body>
+</html>

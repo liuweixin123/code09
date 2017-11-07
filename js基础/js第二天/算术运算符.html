@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>算术运算符</title>
+</head>
+<body>
+<script>
+//    加 减 乘 除 取余 括号  先括号（先里后外），再乘除和取余（同级，从左到右），最后加减
+
+//    乘方  Math.pow(底数，指数)
+    var result = Math.pow(2,5);
+    document.write("计算2<sup>5</sup>后结果是" + result);
+
+    var cfResult = Math.pow(3,(2 + Math.pow(3,6)));
+    document.write("计算3<sup>2+3<sup>6</sup></sup>后的结果是" + cfResult);
+
+    var sqrtNum = Math.sqrt(144);
+    console.log(sqrtNum);// 12
+</script>
+
+</body>
+</html>
