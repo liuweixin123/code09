@@ -53,12 +53,15 @@
         }else if(x === 2){
             console.log(x);
         }else{
+            var isPre = true;// 借助一个布尔量，开关思想
             for(var y = 2;y <= x - 1; y++){
                 if(x % y === 0){
-                    break;
+                    isPre = false;
                 }
             }
-            console.log(x);
+            if(isPre){
+                console.log(x);
+            }
         }
     }
 </script>

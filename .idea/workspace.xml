@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="334666da-17c3-4110-a0ed-6bde726ff029" name="Default" comment="" />
+    <list default="true" id="334666da-17c3-4110-a0ed-6bde726ff029" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js基础/js第三天/多层循环.html" afterPath="$PROJECT_DIR$/js基础/js第三天/多层循环.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -37,8 +40,8 @@
       <file leaf-file-name="多层循环.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js基础/js第三天/多层循环.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="59" column="13" lean-forward="true" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+            <state relative-caret-position="509">
+              <caret line="58" column="34" lean-forward="true" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -178,12 +181,12 @@
       <option name="presentableId" value="Default" />
       <updated>1509948977664</updated>
       <workItem from="1509948979387" duration="9511000" />
-      <workItem from="1509963428009" duration="40610000" />
+      <workItem from="1509963428009" duration="42702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50121000" />
+    <option name="totallyTimeSpent" value="52213000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
@@ -404,8 +407,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js基础/js第三天/多层循环.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="59" column="13" lean-forward="true" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+        <state relative-caret-position="509">
+          <caret line="58" column="34" lean-forward="true" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
           <folding />
         </state>
       </provider>
