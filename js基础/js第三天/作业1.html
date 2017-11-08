@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>5，6整除</title>
+</head>
+<body>
+<script>
+    var nInput = parseInt(prompt("请输入一个整数："));
+
+    if(nInput % 5 === 0 && nInput % 6 === 0){
+        alert("这个数既能被5整除也能被6整除");
+    }else if(nInput % 5 === 0){
+        alert("只能被5整除");
+    }else if(nInput % 6 === 0){
+        alert("只能被6整除");
+    }else{
+        alert("即不能被5整除也不能被6整除");
+    }
+</script>
+</body>
+</html>

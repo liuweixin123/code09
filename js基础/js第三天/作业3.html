@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>判闰年</title>
+</head>
+<body>
+<script>
+    var nYear = prompt("请输入一个年份：");
+
+//    a && b || a && c -> a && (b || c)
+//    不是整百，看年份后两位，它能被4整除
+//    是整百，看年份前两位，它能被4整除
+
+    if(nYear % 100 !== 0 && nYear % 4 === 0 || nYear % 400 === 0){
+        alert(nYear + "年是闰年");
+    }else{
+        alert(nYear + "年不是闰年");
+    }
+</script>
+</body>
+</html>
