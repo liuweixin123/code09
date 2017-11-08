@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="334666da-17c3-4110-a0ed-6bde726ff029" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js基础/js第三天/多层循环.html" afterPath="$PROJECT_DIR$/js基础/js第三天/多层循环.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -40,8 +39,8 @@
       <file leaf-file-name="多层循环.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js基础/js第三天/多层循环.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="58" column="34" lean-forward="true" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+            <state relative-caret-position="645">
+              <caret line="71" column="27" lean-forward="false" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -94,7 +93,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="737" />
     <option name="y" value="92" />
     <option name="width" value="910" />
@@ -181,15 +180,15 @@
       <option name="presentableId" value="Default" />
       <updated>1509948977664</updated>
       <workItem from="1509948979387" duration="9511000" />
-      <workItem from="1509963428009" duration="42702000" />
+      <workItem from="1509963428009" duration="43295000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52213000" />
+    <option name="totallyTimeSpent" value="52806000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16822916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -407,8 +406,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js基础/js第三天/多层循环.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="58" column="34" lean-forward="true" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+        <state relative-caret-position="645">
+          <caret line="71" column="27" lean-forward="false" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
           <folding />
         </state>
       </provider>

@@ -47,21 +47,29 @@
 //        }
 //    }
 //    方法二： 只有 1 和它本身两个约数
+out:
     for(var x = 1;x <= 100; x++){
         if(x === 1){
             console.log("1既不是质数也不是合数");
         }else if(x === 2){
             console.log(x);
         }else{
-            var isPre = true;// 借助一个布尔量，开关思想
+//            var isPre = true;// 借助一个布尔量，开关思想
+//            for(var y = 2;y <= x - 1; y++){
+//                if(x % y === 0){
+//                    isPre = false;
+//                }
+//            }
+//            if(isPre){
+//                console.log(x);
+//            }
+
             for(var y = 2;y <= x - 1; y++){
                 if(x % y === 0){
-                    isPre = false;
+                    continue out;
                 }
             }
-            if(isPre){
-                console.log(x);
-            }
+            console.log(x);
         }
     }
 </script>
