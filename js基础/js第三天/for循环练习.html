@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>找约数</title>
+</head>
+<body>
+<script>
+//    求一个输入正整数的约数
+//    var nInput = parseInt(prompt("请输入一个正整数："));
+//    for(var i = 1;i <= nInput; i++){
+//        if(nInput % i === 0){
+//            console.log(i);
+//        }
+//    }
+
+//    水仙花数
+//    ① 确定查找范围100~999
+//    ② 分离三位数的每位上的数字
+//    ③ 对每位数字分别做立方再加起来做和
+//    ④ 用立方和与这个三位数比较，若相等，输出此三位数
+
+    for(var i = 100; i <= 999; i++){
+        var bai = parseInt(i / 100);
+        var shi = parseInt((i - bai * 100) / 10);
+        var ge = i % 10;
+        var sum = Math.pow(bai,3) + Math.pow(shi,3) + Math.pow(ge,3);
+        if(sum === i){
+            console.log(i + "是水仙花数");
+        }
+    }
+
+//    1. 求 1 + 2 + 3 + ...... + 1000的和
+//    累加器
+    var gsSum = 0;
+    for(var j = 1; j <= 1000; j++){
+        gsSum +=　j;
+    }
+    console.log("1 + 2 + 3 + ...... + 1000 = " + gsSum);
+
+//    2. 用户输入一个正整数，计算这个数的阶乘（8！=8*7*6*5*4*3*2*1）
+//   累乘器
+
+    var userInput = parseInt(prompt("请输入一个正整数："));
+
+    var jcJi = 1;
+    for(var k = userInput; k >= 1; k--){
+        jcJi *= k;
+    }
+    console.log(userInput + "的阶乘是" + jcJi);
+
+
+
+</script>
+</body>
+</html>
